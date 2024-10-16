@@ -14,10 +14,11 @@ data_size = 50
 data = pd.DataFrame({
     'Variable_A': np.random.randn(data_size),
     'Variable_B': np.random.randn(data_size),
-    'Variable_C': np.random.randint(1, 100, size=data_size),
+    'Variable_C': np.random.randint(1, 25, size=data_size),
     'Variable_D': np.random.randn(data_size) * 10,
 })
 
+# Pairplot didn't print properly so I had to remove the brackets to make it numerical.
 print(data.dtypes)
 
 # Create a pairplot of the dataset
