@@ -13,7 +13,7 @@ data_size = 50
 # Create a sample dataset with numpy np.random.randn(), np.random.rand(), np.random.randint()
 data = pd.DataFrame({
     'Variable_A': np.random.randn(data_size),
-    'Variable_B': np.random.randn(data_size),
+    'Variable_B': np.random.rand(data_size),
     'Variable_C': np.random.randint(1, 25, size=data_size),
     'Variable_D': np.random.randn(data_size) * 10,
 })
