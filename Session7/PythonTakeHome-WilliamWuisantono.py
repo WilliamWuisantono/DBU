@@ -28,3 +28,6 @@ plt.show()
 
 # Optionally, save the plot as a PNG file
 # plt.savefig('pairplot_output.png')
+
+# Sources: https://numpy.org/doc/stable/reference/random/generated/numpy.random.rand.html, 
+# https://www.geeksforgeeks.org/pandas-dataframe-dtypes/ - Helped me figure out data type (categorical or numerical)
