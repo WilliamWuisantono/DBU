@@ -46,7 +46,7 @@ def process_choice():
         return (url_for('profile'))
     else:
         # Redirect to the 'hello_world' route for invalid or missing 'choice'
-        return redirect(url_for('hello_world'))
+        return redirect(url_for('home'))
 # --------------------
 
 
